@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/bg.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.main {
+    padding: 50px 80px;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.subLogo {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 40px;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+}
+
+.design {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.toWorks {
+    background-image: url(/images/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 100px 7px;
+    padding-right: 50px;
+    position: absolute;
+    top: 45%;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: .3s ease;
+}
+
+.toWorks:hover {
+    background-position: 90px 7px;
+}
+
+.contacts {
+    text-decoration: underline;
+    font-size: 14px;
+    position: absolute;
+    top: 83%;
+    line-height: 25px;
+}
+
+.email,
+.pNumber {
+    text-decoration: underline;
+    display: inline-block;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.social {
+    position: absolute;
+    left: 89%;
+    top: 71%;
+}
+
+.socLink {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.pNumber:hover,
+.email:hover,
+.socLink:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
