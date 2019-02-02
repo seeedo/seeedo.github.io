@@ -9,14 +9,14 @@
 }
 
 body {
-    background-image: url(/images/bg.png);
+    background-color: #f1f1f1;
     -webkit-background-size: cover;
     background-size: cover;
     font-family: 'IBM Plex Mono', monospace;
 }
 
 .main {
-    padding: 50px 80px;
+    padding: 40px 70px;
     height: 100vh;
 }
 
@@ -50,10 +50,8 @@ h1 {
 }
 
 .toWorks {
-    background-image: url(/images/arrow.svg);
-    background-repeat: no-repeat;
+    background: url(/images/arrow.svg) 100px 7px no-repeat;
     background-size: 15%;
-    background-position: 100px 7px;
     padding-right: 50px;
     position: absolute;
     top: 45%;
@@ -64,6 +62,18 @@ h1 {
 
 .toWorks:hover {
     background-position: 90px 7px;
+}
+
+.toBlog {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    position: absolute;
+    top: 78%;
+}
+
+.toBlog:hover {
+    text-decoration: none;
 }
 
 .contacts {
@@ -84,8 +94,8 @@ h1 {
 
 .social {
     position: absolute;
-    left: 89%;
-    top: 71%;
+    left: 90%;
+    top: 74%;
 }
 
 .socLink {
@@ -101,43 +111,3 @@ h1 {
 .socLink:hover {
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
