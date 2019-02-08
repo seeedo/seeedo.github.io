@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
 
 * {
     padding: 0;
@@ -9,30 +9,31 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #212322;
     -webkit-background-size: cover;
     background-size: cover;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Rubik', monospace;
 }
 
 .main {
     padding: 40px 70px;
     height: 100vh;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .logo {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .subLogo {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 10px;
 }
 
@@ -45,28 +46,25 @@ h1 {
 }
 
 .design {
-    font-weight: 400;
-    text-decoration: underline;
+    font-weight: 500;
 }
 
 .toWorks {
-    background: url(/images/arrow.svg) 100px 7px no-repeat;
+    background: url(/images/arrow_white.svg) 90px 6px no-repeat;
     background-size: 15%;
     padding-right: 50px;
     position: absolute;
     top: 45%;
-    font-weight: 500;
     text-decoration: underline;
     transition: .3s ease;
 }
 
 .toWorks:hover {
-    background-position: 90px 7px;
+    background-position: 82px 6px;
 }
 
 .toBlog {
     font-size: 16px;
-    font-weight: 500;
     text-decoration: underline;
     position: absolute;
     top: 78%;
@@ -74,6 +72,7 @@ h1 {
 
 .toBlog:hover {
     text-decoration: none;
+    font-weight: 400;
 }
 
 .contacts {
@@ -86,28 +85,65 @@ h1 {
 
 .email,
 .pNumber {
-    text-decoration: underline;
     display: inline-block;
     transition: .3s;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .social {
     position: absolute;
     left: 90%;
-    top: 74%;
+    top: 68%;
 }
 
 .socLink {
     display: flex;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
-    text-decoration: underline;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .pNumber:hover,
-.email:hover,
-.socLink:hover {
+.email:hover {
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

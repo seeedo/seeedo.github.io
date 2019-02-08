@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500|IBM+Plex+Sans:400,500');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
 
 * {
     padding: 0;
@@ -7,56 +7,51 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #212322;
+    color: #fff;
 }
 
 .main {
-    font-family: 'IBM Plex Mono';
+    font-family: 'Rubik';
     padding: 40px 70px;
     height: 100vh;
 }
 
 a {
-    color: #000;
+    color: #fff;
 }
 
 .logo {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     position: fixed;
 }
 
 .social {
     position: absolute;
     left: 90%;
-    top: 74%;
+    top: 68%;
     position: fixed;
 }
 
 .socLink {
     display: flex;
-    font-weight: 500;
     font-size: 14px;
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
-
-.socLink:hover {
+    margin-bottom: 15px;
     text-decoration: none;
 }
 
 .title {
     font-size: 30px;
     font-weight: 500;
-    font-family: 'IBM Plex Sans';
     position: absolute;
     top: 40%;
     left: 13%;
 }
 
 .date {
-    font-family: 'IBM Plex Sans';
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 300;
     position: absolute;
     top: 47%;
     left: 15%;
@@ -65,11 +60,11 @@ a {
 .date:before {
     content: '';
     position: absolute;
-    height: 2px;
+    height: 1px;
     width: 15px;
-    background-color: #000;
+    background-color: #fff;
     left: -25px;
-    top: 9px;
+    top: 8px;
 }
 
 .preview {

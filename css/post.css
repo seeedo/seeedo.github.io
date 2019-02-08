@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500|IBM+Plex+Sans:400,500');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
 
 * {
     padding: 0;
@@ -7,41 +7,37 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #212322;
 }
 
 .main {
-    font-family: 'IBM Plex Mono';
+    font-family: 'Rubik';
     padding: 40px 70px;
     height: 100vh;
 }
 
 a {
-    color: #000;
+    color: #fff;
 }
 
 .logo {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     position: fixed;
 }
 
 .social {
     position: absolute;
     left: 90%;
-    top: 74%;
+    top: 68%;
     position: fixed;
 }
 
 .socLink {
     display: flex;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
-
-.socLink:hover {
+    margin-bottom: 15px;
     text-decoration: none;
 }
 
